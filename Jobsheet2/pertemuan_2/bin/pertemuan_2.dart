@@ -1,7 +1,7 @@
 import 'package:pertemuan_2/pertemuan_2.dart' as pertemuan_2;
 
 void main() {
-  for (int i = 18; i > 8; i--) {
-    print('Nama saya fulan, sekarang berumur $i');
+  for (int i = 20; i >= 10; i--) {
+    print('Nama saya Nimas, sekarang berumur $i');
   }
 }
