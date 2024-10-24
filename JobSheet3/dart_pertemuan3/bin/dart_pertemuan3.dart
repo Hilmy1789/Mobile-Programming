@@ -4,7 +4,7 @@ void main(List<String> arguments) {
   // print('Hello world: ${dart_pertemuan3.calculate()}!');
 
   // Praktikum 1
-    String test = "test2";
+  String test = "test2";
   if (test == "test1") {
     print("Test1");
   } else if (test == "test2") {
@@ -15,9 +15,9 @@ void main(List<String> arguments) {
 
   if (test == "test2") print("Test2 again");
 
-  String test = "true";
-  if (test == "true") {
-    print("Kebenaran");
+  bool test2 = true;
+  if (test2) {
+  print("Kebenaran");
   }
 
 
@@ -28,7 +28,7 @@ void main(List<String> arguments) {
     counter++;
   }
 
-  int counter = 75;
+  counter = 75;
   do {
     print(counter);
     counter++;
